@@ -1,0 +1,19 @@
+Setting up the application:
+
+  The application is written in Sinatra. 
+   
+  To start the application:
+
+   1) bundle
+
+   2) ruby app.rb
+
+
+  To use the application:
+
+   http://localhost:4567       #if the default port on which sinatra is running is 4567
+
+  to login, use any of the OPENID identifiers - for example, from google, yahoo, etc
+  for example, for google, enter:  https://www.google.com/accounts/o8/id  in the identifier field and complete the authentication
+
+  once loggedin, upload a tab-delimited file to be loaded into the sqlite database(configured by default)
